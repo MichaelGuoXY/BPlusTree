@@ -37,7 +37,7 @@ public class BPlusTree<K extends Comparable<K>, T> {
 	}
 
 	/**
-	 * Search the value for a specific key, usually starts from root (recursive method)
+	 * Search the leafNode for a specific key, usually starts from root (recursive method)
 	 * 
 	 * @param key
 	 * @param node
